@@ -4,7 +4,7 @@ String StudentName = "Ananya";
 float AcademicPercentage = 72.5f;
 float AttendancePercentage = 81f;
 int ActiveBacklogs = 0;
-boolean ProjectCompleted = true;
+boolean ProjectCompleted = true; 
 double CommunicationScore = 68d;
 double AptitudeScore = 74d;
 
@@ -18,13 +18,14 @@ boolean AptitudeEligible = AptitudeScore >= 60;
 boolean   ApplicationEligible = AcademicEligible && AttendanceEligible && BacklogEligible  && ProjectEligible && CommunicationEligible && AptitudeEligible;
 
 System.out.println("PLACEMENT READINESS REPORT");
+System.out.println("");
 System.out.println("Student Name: "+StudentName);
 System.out.println("Academic Status: " + (AcademicEligible ? "Eligible" : "Not Eligible"));
 System.out.println("Attendance Status: " + (AttendanceEligible ? "Eligible" : "Not Eligible"));
 System.out.println("Backlog Status: " + (BacklogEligible ? "Eligible" : "Not Eligible"));
 System.out.println("Project Status: " + (ProjectEligible ? "Completed" : "Not Completed"));
 System.out.println("Communication Status: " + (CommunicationEligible ? "Eligible" : "Not Eligible"));
-System.out.println("Aptitude Status: " + (AptitudeEligible ? "Eligible" : "Not Eligible"));
+System.out.println("Aptitude Status: " + (AptitudeEligible ? "Eligible" : "Needs Improvement"));
 System.out.println("");
 if(ApplicationEligible) 
     {
