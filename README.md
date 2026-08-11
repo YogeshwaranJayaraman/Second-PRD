@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Student Name:J.Yogeshwaran
 Email:yogeshwaran15082005@gmail.com
 Team Number:4
@@ -8,6 +7,6 @@ Project Title:Placement Readiness Evaluator
 Repository URL:https://github.com/YogeshwaranJayaraman/Second-PRD
 Submission Time:06:30 PM
 Submission Status:Completed
-=======
 
->>>>>>> 909bd0785c9650c134f24e6a8031f1f91fdee1ca
+
+
